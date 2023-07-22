@@ -34,14 +34,7 @@ close.on('click', function() {
 
 
 $(function() {
-$('li').on('click', function() {
-    $(this).animate ({
-    opacity: 0.5,
-    paddingRight: '+=80'
-     } , 1500, function() {
-     $(this).remove();
-     });
-});
+
 });
 var $showlessBut = $('.showlessBut');
 
